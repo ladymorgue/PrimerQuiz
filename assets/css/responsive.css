@@ -1,0 +1,30 @@
+@media (min-width:1px) and (max-width:10px){
+    .cabezote{
+        height: 150px;
+        display: block;
+        justify-content: center;
+    }
+}
+
+@media (min-width:35px) and (max-width:375px){
+    .logo{
+        display: flex;
+    }
+}
+
+@media (max-width:1768px){
+    .carousel_contenedor{
+        margin: 40px 0;
+        display: block;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width:600px){
+    .footer{
+       display: block;
+    }
+    .footer a{
+        display: block;
+    }
+}
